@@ -1,0 +1,10 @@
+{
+  "name": "Mini OS Dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/cmake:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "sudo apt update && sudo apt install -y nasm qemu-system-x86 build-essential grub-pc-bin xorriso"
+}
