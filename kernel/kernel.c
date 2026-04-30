@@ -2,6 +2,8 @@
 #include <stddef.h>
 #include "libc.h"
 
+char scancode_to_ascii(uint8_t sc);
+
 /* ===========================
    PORT I/O
    =========================== */
